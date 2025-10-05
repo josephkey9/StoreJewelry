@@ -72,11 +72,6 @@ function App() {
     <div className="page">
       <header className="header">
         <h1>Rings</h1>
-        <div className="sub">
-          Gold: {data.goldPricePerGramUSD && !isNaN(data.goldPricePerGramUSD)
-            ? `$${data.goldPricePerGramUSD.toFixed(2)} / g`
-            : '–'}
-        </div>
       </header>
 
       <div className="filters">
